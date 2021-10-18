@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../scss/sass/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belleza&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div class="container arena">
+        <!-- Acá está el Nav -->
+        <nav class="navbar navbar-expand-lg navbar-dark container__nav container__nav--separador">
+            <div class="container-fluid">
+                <a class="navbar-brand container__nav--logo" href="#"><img src="https://secure.gravatar.com/avatar/ec556da743608af5cf1bedafcb546143?s=96&d=monsterid&r=g"></a>
+                <div id="nav-title"> 
+                  <a class="navbar-brand container__nav--brand-font-nav">Blablabla Media</a>
+                </div>   
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse container__nav--basis" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item ">
+                    <a class="nav-link" href="/index.html">Home</a>
+                  </li>
+                  <li class="nav-item" >
+                    <a class="nav-link"  href="/secciones/sobre-nosotros.html">About us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/secciones/testimonies.html">Testimonies</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/secciones/pricing.html">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/secciones/contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+
+        <!-- Form -->
+        <div class="row justify-content-center separation ">
+        <div class="col-8 fader container__form--shadow" >
+            <h1 class="container__form--title">Contact us</h1>
+            <form action="" method="GET" name="Contact form">
+            <div class="mb-3">
+                <label for="formGroupExampleInput" class="form-label">First name</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter your first name here">
+            </div>
+            <div class="mb-3">
+                <label for="formGroupExampleInput2" class="form-label">Last name</label>
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter your last name here">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your email adress here">
+            </div>
+            <div class="mb-4">
+                <label for="exampleFormControlInput1" class="form-label">Select your gender</label>
+                <select class="form-select" aria-label="disabled select example">
+                <option disabled> Select your gender</option>
+                <option value="1">Male</option>
+                <option value="2">Female</option>
+                <option value="3">Miscellaneous</option>
+                </select>
+            </div>
+            <div class="form-floating mb-3">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">Leave a comment here</label>
+            </div>
+            <div class="form-check mb-3">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                <label class="form-check-label" for="flexCheckChecked">
+                I want to receive newsletters and special offer notices!
+                </label>
+            </div>
+            <input class="btn btn-primary" type="submit" value="Submit" style="margin-bottom: 10px;">
+            <input class="btn btn-primary" type="reset" value="Reset form" style="margin-bottom: 10px;">
+            </form>
+        </div>
+        </div>
+
+           <!--  Footer -->
+        <div class="card-footer d-flex justify-content-center">
+          Blablabla INC ©. All rights reserved
+        </div>
+
+    </div>
+ 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>
