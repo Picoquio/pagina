@@ -1,0 +1,28 @@
+
+@import "../utils/variables";
+.container {
+    background-color: $arena;
+
+    &__nav {
+        background-color:$buracku;
+
+            &--logo {
+                border-radius: 50%;
+                display: inline-block;
+                background-color:rgb(255, 255, 255);
+            }
+            &--brand-font-nav {
+                font-family: 'Londrina Shadow', cursive;
+                font-style: oblique;
+                font-size: 3.125rem;
+            }
+            &--basis {
+                padding-left: 5.56rem;
+                margin-top: 10px;
+                padding-left: 150px;
+            }
+            &--separador {
+                margin-bottom: $separation;
+            }
+        }
+}

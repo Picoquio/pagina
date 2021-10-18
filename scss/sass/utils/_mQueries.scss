@@ -1,0 +1,92 @@
+@media screen and (min-width: 300px) and (max-width: 767px){
+
+
+    /* Hide captions class  */
+    .carousel-caption {
+       display: block !important;
+    }
+  }
+  
+
+
+
+  @media screen and (min-width: 992px) and (max-width: 1200px){
+
+  .testBox {
+    height: 29rem;
+    width: 16rem;
+}
+    h2{
+        font-size: 1.75rem
+    }
+
+    .basis {
+        padding-left: 5.56rem;
+    }
+
+  }
+
+
+  @media screen and (min-width: 768px) and (max-width: 992px){
+
+    
+      h2{
+          font-size: 1.375rem
+      }
+  
+    }
+
+
+    @media screen and (min-width: 577px) and (max-width: 767px){
+
+    
+        h2{
+            font-size: 1.43rem;
+        }
+
+        .container__main--carouselSize {
+            max-width: 22em;
+        }
+    
+      }
+
+      @media screen and (max-width: 576px){
+
+    
+        h2{
+            font-size: 20px;
+        }
+        .container__main--carouselSize {
+            max-width: 22em;
+        }
+    
+      }
+
+
+  @media screen and (min-width: 405px) and (max-width: 519px){
+      .container__nav--brand-font-nav {
+          font-size: 1.875rem;
+      }
+
+      
+
+  }
+
+
+
+  @media screen and (min-width: 200px) and (max-width: 405px){
+
+  .navbar-toggler-icon {
+      height: 1em !important;
+      width: 1em !important;
+  }
+  .container__main--carouselSize {
+    max-width: 14em;
+}
+.container__nav--brand-font-nav{
+    font-size: 1.5rem
+}
+#barack {
+    font-size: 10px;
+}
+}

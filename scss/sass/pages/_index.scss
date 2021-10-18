@@ -1,0 +1,27 @@
+.container{
+    background-color: $arena;
+    
+    
+    &__main {
+        background-image: url("/media/backgb.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 38rem;
+        width: auto;
+        &--call-to-action {
+            background-color: rgba(3, 14, 18, 0.7);
+            padding: 1.875rem;
+        }
+        &--vertCenter {
+            display: flex;
+            align-items: center;
+        }
+        &--carouselSize {
+            max-width: 31.25em;
+            max-height: 19.812em; 
+        }
+        
+        
+    }
+}
+    
