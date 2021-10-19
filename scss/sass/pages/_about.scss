@@ -11,7 +11,7 @@
             @include textStyling("'Segoe UI', Tahoma, Geneva, Verdana, sans-serif", auto, navy 1px 1px, white  );
         }
         &--peregrinos {
-            background-image: url(/media/peregrinos2.jpg);
+            background-image: url("../media/peregrinos2.jpg");
             background-size: cover;
         }
         &--peregrinosText {
