@@ -7,8 +7,70 @@
     }
   }
   
+  @media screen and (min-width: 1200px) and (max-width: 1399px){
+    .textAbout {
+        font-size:  22px;
+    }
+  }
+  @media screen and (min-width: 992px) and (max-width: 1199px){
+    .textAbout {
+        font-size:  20px;
+    }
+    .container__nav--basis {
+        padding-left: 4.68em;
+    }
+  }
+  
+  @media screen and (min-width: 578px) and (max-width: 992px){
+    .textAbout {
+        font-size:  16px;
+    }
+  }
+  @media screen and (min-width: 0px) and (max-width: 992px){
+    .container {
+        max-width: 100%;}
+    }
+  
+    @media screen and (min-width: 406px) and (max-width: 471px){
+        .logoResponsive {
+            height: 5rem;
+        }
+    }
 
+    @media screen and (min-width: 0px) and (max-width: 406px){
+        .logoResponsive {
+            height: 50px;
+        }
+    }
 
+    @media screen and (min-width: 406px) and (max-width: 440px){
+        .container__nav--brand-font-nav {
+            font-size: 30px;
+        }
+        }
+      
+   
+
+  @media screen and (min-width: 0px) and (max-width: 575px){
+    .container__main--peregrinos {
+        justify-content: center;
+    }
+  }
+  
+  @media screen and (min-width: 0px) and (max-width: 319px){
+    .container__testimonies--pTestimony {
+        font-size: 24px;
+    }
+  }
+  @media screen and (min-width: 0px) and (max-width: 437px){
+    .container__card {
+        padding: 0;
+    }
+    .p-5 {
+        padding: 0 !important;
+    }
+  }
+  
 
   @media screen and (min-width: 992px) and (max-width: 1200px){
 
@@ -73,14 +135,20 @@
       }
 
 
-  @media screen and (min-width: 405px) and (max-width: 519px){
+
+
+  @media screen and (min-width: 440px) and (max-width: 529px){
       .container__nav--brand-font-nav {
-          font-size: 1.875rem;
+          font-size: 2.5rem;
       }
-
-      
-
   }
+
+
+  @media screen and (min-width: 406px) and (max-width: 474px){
+    .container__main--carouselSize {
+        max-width: 14em;
+    }
+}
 
 
 
@@ -99,4 +167,19 @@
 #barack {
     font-size: 10px;
 }
+}
+
+@media screen and (min-width: 200px) and (max-width: 366px){
+
+    h1 { font-size: 20px;
+
+    }
+    p{
+        font-size: 13px;
+        ;
+    }
+    .container__main--carouselSize {
+        max-width: 12em;
+    }
+    
 }
