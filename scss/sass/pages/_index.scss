@@ -10,7 +10,10 @@
         width: auto;
         &--call-to-action {
             background-color: rgba(3, 14, 18, 0.7);
-            padding: 1.875rem;
+           /*  padding: 1.875rem; */
+           padding-left: 1.875rem;
+           padding-top: 1rem;
+           padding-right: 1.875rem;
         }
         &--vertCenter {
             display: flex;
