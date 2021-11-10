@@ -13,9 +13,9 @@
             background-color: $celeste !important;
 
         }
-    }
-
-        &__card::after {
+    
+    
+        &::after {
             position: absolute;
             z-index: -1;
             opacity: 0;
@@ -24,18 +24,20 @@
         }
     
 
-        &__card:hover {
+        &:hover {
             @include cardHover (none, auto);
         }
     
-        &__card:hover::after {
+        &:hover::after {
             opacity: 1;
         }
     
-        &__card:hover .btn-outline-primary{
+        &:hover .btn-outline-primary{
             color:white;
             background:#007bff;
         }
+
+    }
 
         &__form {
             &--title {
